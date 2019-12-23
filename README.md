@@ -1,5 +1,7 @@
 # css-deep-dive
+
 Deep dive on CSS and up-and-coming features
+
 -------
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
