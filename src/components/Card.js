@@ -4,28 +4,26 @@ import Button from './Button'
 
 
 const CardStyled = styled.div `
-    
-        width: 368px;
-        box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
-        margin: 0 auto;
+    width: 368px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    margin: 0 auto;
 
-        .card-content {
-            padding: 15px;
+    .card-content {
+        padding: 15px;
 
-            .title {
-                font-size: 24px;
-                margin-bottom: 10px;
-            }
-
-            .text {
-                text-align: left;
-            }
-
-            .button {
-                margin: 30px 0;
-            }
+        .title {
+            font-size: 24px;
+            margin-bottom: 10px;
         }
-    
+
+        .text {
+            text-align: left;
+        }
+
+        .button {
+            margin: 30px 0;
+        }
+    }
 `
 
 

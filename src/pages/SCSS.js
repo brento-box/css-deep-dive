@@ -4,7 +4,7 @@ function SCSS() {
     return (
         <div className='content bem'>
             <h1 className='title'>Card and buttons styled with SCSS</h1>
-            <p>Placeholder text</p>
+            <p>SASSY CSS</p>
             <Button className='top-button' color='green' text='Click here' />
             <Card />
         </div>
