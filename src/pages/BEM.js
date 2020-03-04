@@ -2,7 +2,7 @@ import React from 'react'
 
 function BEM() {
     return (
-        <div className='content vanilla'>
+        <div className='content bem'>
             <h1>Button styled with BEM CSS</h1>
             <hr />
             <Button text='Click me!'/>

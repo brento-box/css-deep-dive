@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Button from './components/Button'
 import Vanilla from './pages/Vanilla'
 import BEM from './pages/BEM'
 
@@ -45,7 +46,12 @@ function App() {
 
 function Home() {
   return (
-    <h1>Homepage</h1>
+    <div className='homepage-content'>
+      <h1>Homepage</h1>
+      <Button text='Click me!'/>
+      <Button text='Warning button' color='orange' />
+      <Button text='Alert button! Something is wrong!' color='red' />
+    </div>
   )
 }
 
